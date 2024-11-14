@@ -13,7 +13,7 @@ import (
 
 func main() {
 	runtime.GOMAXPROCS(4)
-	// go Monitor()
+	go Monitor()
 
 	xlog.Info("start job ...")
 	names.Start()
